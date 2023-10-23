@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0059bf;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #a6a6a69b;
+    backdrop-filter: blur(4px);
+}
+
+.logo {
+    cursor: pointer;
+    color: #fff;
+    padding-right: 10rem;
+}
+
+.navbar {
+    padding-left: 4rem;
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 0.8rem;
+    list-style-type: none;
+}
+
+.navbar li a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.navbar a:hover {
+    font-weight: 700;
+    color: orangered;
+}
+
+.btn {
+    padding-right: 3rem;
+}
+
+.btn button {
+    border-radius: 3px;    background-color: #ff7b00;
+    border: none;
+    transition: 0.5s;
+    padding: 14px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.btn a:hover {
+    color: #daebff;
+    font-weight: 700;
+}
+
+.btn button:hover {
+    background-color: black;
+}
+
+
+/* home */
+
+.home-page {
+    margin-top: 10rem;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+.home-page h1 {
+    margin: 20px;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.display-home {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.display-home span {
+    color: #ff7b00;
+}
+
+.home-page img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 10rem;
+}
+
+.btn-home {
+    margin: 40px;
+    text-align: center;
+}
+
+.btn-home a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn-home button {
+    background-color: #ff7b00;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: none;
+    padding: 14px;
+}
+
+.btn-home a:hover {
+    color: #d5d5d5;
+}
+
+.btn-home button:hover {
+    background-color: #000;
+}
+
+
+/* about */
+
+.about {
+    top: 5rem;
+    padding: 40px;
+    background: linear-gradient(#3434346a, #2424243d), url(images/jungle.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    
+}
+
+
+.about h1 {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-shadow: 2px 2px 2px #000 blur;
+    width: auto;
+    text-align: center;
+    transition: 0.5s;
+    background-color: #ff7b00;
+    color: #000;
+}
+
+.about h1:hover {
+    color: #fff;
+    background-color: #0059bf;
+}
+
+.about p {
+    text-shadow: 2px 2px 2px #000 blur;
+    padding: 50px;
+    margin: 5rem 10rem 10rem 10rem;
+    color: #ffffff;
+}
+
+.about a {
+    text-decoration: none;
+    color: #ff7b00;
+    transition: 0.6s;
+}
+
+.about a:hover {
+    color: #fff;
+}
+
+/* help */
+
+.help {
+    padding: 10rem 0;
+    background-color: #ff7b00;
+    width: 100%;
+    text-align: center;
+}
+
+.help h1 {
+    margin: 20px;
+}
+
+.help p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.help button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #0059bf;
+    transition: 0.5s;
+}
+
+.help a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.help button:hover {
+    background-color: #000;
+}
