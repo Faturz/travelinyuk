@@ -1,61 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css   ">
-    <title>Travel</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="path/to/dist/feather.js"></script>
+    <title>TravelinYuk | Created by Syahriza Faturahman</title>
 </head>
 <body>
     <div class="header">
         <div class="navbar">
             <ul class="links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#help">Get Help</a></li>
-                <li><a href="#">Lets Travel</a></li>
+                <li><a href="#about">Destination</a></li>
+                <li><a href="#help">Info</a></li>
+                <li><a href="#" class="lt">Lets Travel</a></li>
             </ul>
         </div>
         <div class="logo">
-            <h1>TravelinYuk</h1>
+            <h1 >Travelin<span>Yuk</span></h1>
         </div>
         <div class="btn">
-            <button class="btn-1"><a href="#">Login</a></button>
+            <button class="btn-1"><i class='bx bx-user'></i><a href="#">Login</a></button>
             <button class="btn-2"><a href="#">Sign Up</a></button>
         </div>
     </div>
 
     <!-- home page -->
     <div class="home-page" id="home">
-        <div class="display-home">
-        <h1>Kamu bingung hari ini mau liburan kemana?, Ayo pesan di TravelinYuk sekarang juga ! <span>
+        <div class="display-home" >
+        <h1 data-aos="fade-up">Kamu bingung hari ini mau liburan kemana?, <span class="frst"> Ayo pesan di TravelinYuk sekarang juga !</span> <span class="scnd" data-aos="fade-left">
             #TravelamanBersamaTravelinYuk
         </span>
 
         </h1>
-        <img src="images/home.jpg">
+        <img src="images/home.jpg" data-aos="fade-left">
     </div>
             <div class="btn-home">
             <button class="btn-home1"><a href="#">Lets Travel Now !</a></button>
         </div>
     </div>
-
+    
     <!-- about -->
+    <div class="destination" id="about" >
+        <!-- <div class="back">
+            <<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,90.7C240,85,300,139,360,144C420,149,480,107,540,96C600,85,660,107,720,138.7C780,171,840,213,900,224C960,235,1020,213,1080,176C1140,139,1200,85,1260,106.7C1320,128,1380,224,1410,272L1440,320L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        </div> -->
+        
+        <h1 data-aos="slide-up">Destination</h1>
+        <div class="imgs" >          
+            <div class="img-1" data-aos="slide-left">
+                <img src="https://api2.kemenparekraf.go.id/storage/app/uploads/public/63e/9cd/3d1/63e9cd3d10982365021986.jpg">
+                <p>Mandalika</p>
+                <h6>Mandalika adalah kawasan wisata seluas 20.035 hektar yang berlokasi di Kabupaten Lombok Tengah, Nusa Tenggara Barat. Sejak 2017, Mandalika sudah diresmikan sebagai Kawasan Ekonomi Khusus pariwisata yang direncanakan dapat menjadi kawasan wisata.</h6>
 
-    <div class="about" id="about">
-        <h1>Tentang TravelinYuk</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eligendi vitae possimus sint, reiciendis atque corrupti, praesentium ullam, doloribus molestias autem necessitatibus ipsum quod deserunt? Aliquam optio modi sapiente maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eum earum dolor veritatis! Consequatur, libero sint dignissimos odio illum quos at itaque vel ducimus, magnam assumenda? Fuga, similique? Voluptas, reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet ducimus, voluptatibus illum harum dicta numquam nemo deserunt fugiat sunt labore consequuntur libero eum cum commodi natus vitae distinctio ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto velit voluptate eveniet porro deleniti nostrum saepe aperiam veniam tempora, natus unde in sed fugit alias ipsa, atque rem! Totam, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolorum, impedit cumque dolor laboriosam minima officia dignissimos cum. Itaque a voluptas maiores eius, sint odit tempore eaque porro nam ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo libero corporis nostrum tenetur qui numquam, eos ullam quos molestias amet, culpa, quibusdam earum aperiam laboriosam porro sunt reiciendis minima vero!
-        </p>
-        <a href="#">Baca Selengkapnya disini</a>
+            </div>
+            <div class="img-2" data-aos="slide-up">
+                <img src="https://media.suara.com/suara-partners/indotnesia/thumbs/653x367/2022/10/11/1-banda-neira-twitter-euniceapril.jpg">
+                <p>Banda Neira</p>
+                <h6>Adalah salah satu pulau di Kepulauan Banda, dan merupakan pusat administratif Kecamatan Banda, Kabupaten Maluku Tengah, Provinsi Maluku, Indonesia.</h6>
+            </div>
+            <div class="img-3" data-aos="slide-right">
+                <img src="https://i0.wp.com/satunusantaranews.co.id/wp-content/uploads/2021/09/Untitled-design-2021-09-24T170813.154.jpg?w=1024&ssl=1">
+                <p>Raja Ampat</p>
+                <h6>Adalah sebuah kepulauan yang terletak di ujung barat laut Semenanjung Kepala Burung di pulau New Guinea , di provinsi Papua Barat Daya , Indonesia . Wilayah ini terdiri dari lebih dari 1.500 pulau kecil, pulau karang, dan beting yang mengelilingi empat pulau utama Misool , Salawati , Batanta , dan Waigeo , serta pulau kecil Kofiau.</h6>
+            </div>            
+        </div>
+        <div class="imgs" data-aos="slide-right">          
+            <div class="img-1" data-aos="slide-left">
+                <img src="https://imgsrv2.voi.id/gh_3eLY0jJzM6MpOHnXSHXP6dPxUKfKbZ_0FiFY2Mzc/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xOTk4OTAvMjAyMjA4MTAyMDM5LW1haW4uY3JvcHBlZF8xNjYwMTM4ODYxLmpwZw.jpg">
+                <p>Pulau Komodo</p>
+                <h6>Adalah sebuah pulau yang terletak di Kepulauan Nusa Tenggara, berada di sebelah timur Pulau Sumbawa, yang dipisahkan oleh Selat Sape. Pulau Komodo dikenal sebagai habitat asli hewan komodo. Pulau ini termasuk salah satu kawasan Taman Nasional Komodo yang dikelola oleh Pemerintah Pusat.</h6>
+            </div>
+            <div class="img-2" data-aos="slide-up">
+                <img src="https://cdn.britannica.com/66/145866-050-921B75D7/Temple-Prambanan-Yogyakarta-Indon-Java.jpg">
+                <p>Yogyakarta</p>
+                <h6>Kota Yogyakarta adalah ibu kota daerah istimewa sekaligus pusat pemerintahan dan perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota besar yang mempertahankan konsep tradisional dan budaya Jawa.</h6>
+            </div>
+            <div class="img-3">
+                <img src="https://www.mypangandaran.com/medias/Karapyak_2.jpg">
+                <p>Pantai Pangandaran</p>
+                <h6>Pangandaran adalah sebuah wilayah kabupaten yang terletak di Provinsi Jawa Barat, Indonesia. Ibu kotanya adalah Kecamatan Parigi. Kabupaten Pangandaran memiliki luas wilayah sekira 1.011,04 km.</h6>
+            </div>            
+        </div>
+        <div class="imgs" data-aos="slide-right">          
+            <div class="img-1" data-aos="slide-left">
+                <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/wisata-pantai-sawarna.width-800.format-webp.webp">
+                <p>Pantai Sawarna</p>
+                <h6>Desa Wisata Sawarna adalah sebuah Desa wisata di Kecamatan Bayah, Kabupaten Lebak, Banten. Desa Sawarna berbatasan langsung dengan Samudra Hindia, di sisi selatan sehingga Desa Sawarna merupakan kawasan pesisir pantai</h6>
+            </div>
+            <div class="img-2" data-aos="slide-up">
+                <img src="https://cdn1-production-images-kly.akamaized.net/cpdfj2akuMYMOICk9UyaBqBWXqY=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1610052/original/057998100_1496209328-Pantai_Anyer.jpg">
+                <p>Pantai Anyer</p>
+                <h6>Anyar adalah kecamatan di Kabupaten Serang, provinsi Banten, Indonesia. Kecamatan Anyer memiliki pantai yang sangat terkenal sebagai daerah pariwisata.</h6>
+            </div>
+            <div class="img-3" data-aos="slide-right">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bromo-Semeru-Batok-Widodaren.jpg/800px-Bromo-Semeru-Batok-Widodaren.jpg">
+                <p>Bromo</p>
+                <h6>Gunung Bromo atau dalam bahasa Tengger dieja "Brama", juga disebut Kaldera Tengger, adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia.</h6>
+            </div>            
+        </div>
     </div>
 
     <!-- help -->
 
     <div class="help" id="help">
-        <h1>Ada yang perlu dibantu dari travel kali ini?</h1>
-        <p>klik tombol dibawah ini</p>
-        <button class="get-help"><a href="#">Get Help</a></button>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#003c80" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,90.7C240,85,300,139,360,144C420,149,480,107,540,96C600,85,660,107,720,138.7C780,171,840,213,900,224C960,235,1020,213,1080,176C1140,139,1200,85,1260,106.7C1320,128,1380,224,1410,272L1440,320L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        <h1>Info About Travelin<span>Yuk</span></h1>
+        <div class="cntnt">
+            <div class="c-h" data-aos="fade-up">
+                <h3>about us</h3>
+                <h1>Travelin<span>Yuk</span></h1>
+                <p data-aos="fade-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore accusantium quidem nostrum quibusdam, inventore optio quod sequi facere laborum quos voluptatibus, accusamus, quisquam soluta labore quasi eos blanditiis. Vero.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit dolorem eos? Magnam maiores voluptates earum autem ad. Amet voluptate, exercitationem eligendi quo totam aliquid mollitia excepturi non autem delectus.
+                <br>
+                <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur neque perspiciatis, laboriosam optio id, explicabo accusamus saepe nobis voluptates beatae, ipsa enim excepturi nisi error pariatur quos deserunt. Dolore, impedit.
+            </p>
+        </div>
+        
+        <div class="c-i" data-aos="fade-up">
+            <h3>What is?</h3>
+            <h1>Travelin<span>Yuk</span></h1>
+            <p data-aos="fade-right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore accusantium quidem nostrum quibusdam, inventore optio quod sequi facere laborum quos voluptatibus, accusamus, quisquam soluta labore quasi eos blanditiis. Vero.
+                <br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit dolorem eos? Magnam maiores voluptates earum autem ad. Amet voluptate, exercitationem eligendi quo totam aliquid mollitia excepturi non autem delectus.
+                <br>
+                <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur neque perspiciatis, laboriosam optio id, explicabo accusamus saepe nobis voluptates beatae, ipsa enim excepturi nisi error pariatur quos deserunt. Dolore, impedit.
+            </p>
+        </div>
+    </div>
+        <div class="get-help">
+            <button><a href="#">Get Help</a></button>
+        </div>
     </div>
 
+    <div class="footer">
+        <h1 class="footer-title">Travelin<span>Yuk</span></h1>
+        <div class="isi">
+            <div class="alamat" data-aos="fade-left">
+                <h1 data-aos="fade-left">alamat</h1>
+                <p>Jl. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="call-center" data-aos="fade-up">
+                <h1 data-aos="fade-up">call center</h1>
+                <a href="#">021-2870-1291</a>
+            </div>
+            <div class="email" data-aos="fade-right">
+                <h1 data-aos="fade-right">email</h1>
+                <a href="#">loremipsum@yahoo.com</a>
+            </div>
+            </div>
+        </div>
+        <footer class="foot"><h4>Copyright Travelin<span>Yuk</span> | Syahriza Faturaman</h4></footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
